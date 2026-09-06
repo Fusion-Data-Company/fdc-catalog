@@ -1,7 +1,7 @@
 {
   "$schema": "./catalog.schema.json",
   "generated_by": "ronin-local",
-  "updated_at": "2026-09-06T23:20:00Z",
+  "updated_at": "2026-09-07T03:05:00Z",
   "notes": "Single source of truth for everything Fusion Data Company sells. fusiondataco.com renders from this file. Owner of each entry maintains it; nobody else edits another owner's entry. Prices here are the only published prices.",
   "products": [
     {
@@ -135,7 +135,7 @@
       "checkout_url": "https://buy.stripe.com/5kQbJ12mT1TuaIn0OGaAw0b",
       "demo_url": "https://opsdesk-demo-six.vercel.app",
       "docs_url": null,
-      "updated_at": "2026-09-06T21:30:00Z",
+      "updated_at": "2026-09-07T03:05:00Z",
       "demos": [
         {
           "vertical": "Operations tracker for small teams",
@@ -159,24 +159,94 @@
           "status": "live"
         },
         {
-          "vertical": "Beauty studio site + booking",
-          "name": "(unnamed)",
+          "vertical": "Retail + hydroponics supply",
+          "name": "Greenhouse Supply Co",
+          "demo_url": "https://fdc-grow-white-label.vercel.app",
+          "repo": "northern-roots-WL",
+          "status": "live"
+        },
+        {
+          "vertical": "Beauty studio",
+          "name": null,
           "demo_url": null,
           "repo": "unique-beauty-pmu-WL",
           "status": "clean, not deployed"
         },
         {
-          "vertical": "Cultivation operations",
-          "name": "(unnamed)",
+          "vertical": "Cultivation ops",
+          "name": null,
           "demo_url": null,
           "repo": "wicked-gardens-WL",
           "status": "clean, not deployed"
         },
         {
-          "vertical": "Lead generation + enrichment",
-          "name": "(unnamed)",
+          "vertical": "Lead generation",
+          "name": null,
           "demo_url": null,
           "repo": "lead-annex-WL",
+          "status": "clean, not deployed"
+        },
+        {
+          "vertical": "Garage door / home services",
+          "name": "Summit Door Co",
+          "demo_url": null,
+          "repo": "garage-guys-WL",
+          "status": "clean, not deployed"
+        },
+        {
+          "vertical": "Home renovation contractor",
+          "name": "Cedar and Stone Renovations",
+          "demo_url": null,
+          "repo": "all-things-home-reno-WL",
+          "status": "clean, not deployed"
+        },
+        {
+          "vertical": "Wetland mitigation ops",
+          "name": "Marsh and Meadow",
+          "demo_url": null,
+          "repo": "sparrow-mitigation-WL",
+          "status": "clean, not deployed"
+        },
+        {
+          "vertical": "Staffing / recruiting",
+          "name": "SwiftHire",
+          "demo_url": null,
+          "repo": "ifastrecruit-WL",
+          "status": "clean, not deployed"
+        },
+        {
+          "vertical": "Auto service + booking",
+          "name": "Quick Lane Auto Care",
+          "demo_url": null,
+          "repo": "drive-city-connect-WL",
+          "status": "clean, not deployed"
+        },
+        {
+          "vertical": "Fence contractor",
+          "name": "Ridgeline Fence",
+          "demo_url": null,
+          "repo": "cleancutfenceandgate-WL",
+          "status": "clean, not deployed"
+        },
+        {
+          "vertical": "Ecosystem hub / recruiting CRM",
+          "name": "Licensing Academy Overwatch",
+          "demo_url": null,
+          "repo": "Overwatch-WL",
+          "status": "clean, not deployed"
+        },
+        {
+          "vertical": "Ecommerce + wholesale supply",
+          "name": "Timber Supply Co",
+          "demo_url": null,
+          "repo": "stain-and-seal-supply-WL",
+          "status": "clean; fdc-supply-white-label deploy returns 500, under repair"
+        },
+        {
+          "vertical": "LMS / course platform",
+          "name": "Licensing Academy",
+          "demo_url": null,
+          "repo": "cflis-rebuild-WL",
           "status": "clean, not deployed"
         }
       ]
