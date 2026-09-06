@@ -1,0 +1,75 @@
+{
+  "$schema": "./catalog.schema.json",
+  "generated_by": "ronin-local",
+  "updated_at": "2026-09-06T16:45:00Z",
+  "notes": "Single source of truth for everything Fusion Data Company sells. fusiondataco.com renders from this file. Owner of each entry maintains it; nobody else edits another owner's entry. Prices here are the only published prices.",
+  "products": [
+    {
+      "slug": "launch-audit",
+      "name": "80/20 Launch Audit",
+      "one_line": "A senior-dev launch audit that breaks into your app and proves what's broken before your users find it.",
+      "category": "developer-tools",
+      "status": "live",
+      "owner": "ronin",
+      "price_display": "From $79",
+      "price_note": "Single Run $79 · Hosted Deep Audit $149 · Pro $499, all one-time",
+      "tiers": [
+        { "name": "Single Run", "price": 79, "interval": "one_time", "stripe_price_id": "price_1UCixUEkfFOXPr6DXQptMjMK", "delivery": "automated instant grade, on screen in seconds" },
+        { "name": "Hosted Deep Audit", "price": 149, "interval": "one_time", "stripe_price_id": "price_1UChuBEkfFOXPr6D3yMNbJeV", "delivery": "instant grade now, evidence report emailed within 2 business days" },
+        { "name": "Hosted Deep Audit — Pro", "price": 499, "interval": "one_time", "stripe_price_id": "price_1UChuCEkfFOXPr6D2ux1VTnU", "delivery": "authenticated checks, fix plan, one re-audit, 30-minute call" }
+      ],
+      "checkout_url": "https://80-20.dev/landing#order",
+      "demo_url": "https://80-20.dev/landing",
+      "docs_url": "https://github.com/Fusion-Data-Company/fusion-launchaudit",
+      "updated_at": "2026-09-06T16:45:00Z"
+    },
+    {
+      "slug": "rapport",
+      "name": "Rapport",
+      "one_line": "Relationship autopilot: the milestone and sports notes your best rep would send if they had the time, sent from their own mailbox.",
+      "category": "sales-tools",
+      "status": "live",
+      "owner": "ronin",
+      "price_display": "$29 per seat / month",
+      "price_note": "14-day free trial, 250 contacts per seat, cancel any time",
+      "tiers": [
+        { "name": "Seat", "price": 29, "interval": "month", "stripe_price_id": "price_1UChi6EkfFOXPr6DCFYJUHzR", "delivery": "self-serve seat; connects the rep's own Google Workspace / Microsoft 365 mailbox" }
+      ],
+      "checkout_url": "https://rapport-pi.vercel.app/sign-up",
+      "demo_url": "https://rapport-pi.vercel.app",
+      "docs_url": null,
+      "updated_at": "2026-09-06T16:45:00Z"
+    },
+    {
+      "slug": "leadline",
+      "name": "LeadLine",
+      "one_line": "A voice agent that interviews every inbound human for five minutes and hands you a scored record before anyone on your team picks up the phone.",
+      "category": "voice-agents",
+      "status": "soon",
+      "owner": "ronin",
+      "price_display": "From $149 / month",
+      "price_note": "Tiers pending sourced comps (proposed $149 / $299 / $599 with interview caps and published overage)",
+      "tiers": [],
+      "checkout_url": null,
+      "demo_url": null,
+      "docs_url": null,
+      "updated_at": "2026-09-06T16:45:00Z"
+    },
+    {
+      "slug": "white-label-platforms",
+      "name": "Your Platform, Your Name",
+      "one_line": "A finished, working platform for your vertical, live under your brand in days, with a voice agent answering the phone.",
+      "category": "done-for-you",
+      "status": "soon",
+      "owner": "ronin",
+      "price_display": "$3,500 to $15,000 + hosting",
+      "price_note": "Deposit at checkout; hosting and care $250 to $500 / month; verticals listed as their demos go live",
+      "tiers": [],
+      "checkout_url": null,
+      "demo_url": null,
+      "docs_url": null,
+      "verticals_clean_today": ["mat-ops", "savvy-fsbo", "body-temple", "unique-beauty-pmu", "wicked-gardens", "lead-annex"],
+      "updated_at": "2026-09-06T16:45:00Z"
+    }
+  ]
+}
