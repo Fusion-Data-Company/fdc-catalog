@@ -1,7 +1,7 @@
 {
   "$schema": "./catalog.schema.json",
   "generated_by": "ronin-local",
-  "updated_at": "2026-09-06T17:15:00Z",
+  "updated_at": "2026-09-06T21:30:00Z",
   "notes": "Single source of truth for everything Fusion Data Company sells. fusiondataco.com renders from this file. Owner of each entry maintains it; nobody else edits another owner's entry. Prices here are the only published prices.",
   "products": [
     {
@@ -119,23 +119,67 @@
       "name": "Your Platform, Your Name",
       "one_line": "A finished, working platform for your vertical, live under your brand in days, with a voice agent answering the phone.",
       "category": "done-for-you",
-      "status": "soon",
+      "status": "live",
       "owner": "ronin",
       "price_display": "$3,500 to $15,000 + hosting",
-      "price_note": "Deposit at checkout; hosting and care $250 to $500 / month; verticals listed as their demos go live",
-      "tiers": [],
-      "checkout_url": null,
-      "demo_url": null,
-      "docs_url": null,
-      "verticals_clean_today": [
-        "mat-ops",
-        "savvy-fsbo",
-        "body-temple",
-        "unique-beauty-pmu",
-        "wicked-gardens",
-        "lead-annex"
+      "price_note": "$1,500 deposit at checkout (applied to the project, refundable until kickoff); projects $3,500 to $15,000 by scope; hosting and care $250 to $500 / month; buyer lists the tools they already use on the order form and we build them in",
+      "tiers": [
+        {
+          "name": "Build deposit",
+          "price": 1500,
+          "interval": "one_time",
+          "stripe_price_id": "price_1UCk0iEkfFOXPr6DndSMY2Do",
+          "delivery": "kickoff scheduled within 1 business day; clone template, swap brand config, wire the buyer's tools, deploy, handover"
+        }
       ],
-      "updated_at": "2026-09-06T16:45:00Z"
+      "checkout_url": "https://buy.stripe.com/5kQbJ12mT1TuaIn0OGaAw0b",
+      "demo_url": "https://opsdesk-demo-six.vercel.app",
+      "docs_url": null,
+      "updated_at": "2026-09-06T21:30:00Z",
+      "demos": [
+        {
+          "vertical": "Operations tracker for small teams",
+          "name": "OpsDesk",
+          "demo_url": "https://opsdesk-demo-six.vercel.app",
+          "repo": "mat-ops-WL",
+          "status": "live"
+        },
+        {
+          "vertical": "Fitness / coaching member platform",
+          "name": "StudioPulse",
+          "demo_url": "https://fdc-fitness-white-label.vercel.app",
+          "repo": "body-temple-platform-WL",
+          "status": "live"
+        },
+        {
+          "vertical": "Real-estate listing desk for brokerages",
+          "name": "ListDesk",
+          "demo_url": "https://fdc-real-estate-white-label.vercel.app",
+          "repo": "savvy-fsbo-WL",
+          "status": "live"
+        },
+        {
+          "vertical": "Beauty studio site + booking",
+          "name": "(unnamed)",
+          "demo_url": null,
+          "repo": "unique-beauty-pmu-WL",
+          "status": "clean, not deployed"
+        },
+        {
+          "vertical": "Cultivation operations",
+          "name": "(unnamed)",
+          "demo_url": null,
+          "repo": "wicked-gardens-WL",
+          "status": "clean, not deployed"
+        },
+        {
+          "vertical": "Lead generation + enrichment",
+          "name": "(unnamed)",
+          "demo_url": null,
+          "repo": "lead-annex-WL",
+          "status": "clean, not deployed"
+        }
+      ]
     }
   ]
 }
