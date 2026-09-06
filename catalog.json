@@ -1,7 +1,7 @@
 {
   "$schema": "./catalog.schema.json",
   "generated_by": "ronin-local",
-  "updated_at": "2026-09-06T21:30:00Z",
+  "updated_at": "2026-09-06T23:20:00Z",
   "notes": "Single source of truth for everything Fusion Data Company sells. fusiondataco.com renders from this file. Owner of each entry maintains it; nobody else edits another owner's entry. Prices here are the only published prices.",
   "products": [
     {
@@ -180,6 +180,101 @@
           "status": "clean, not deployed"
         }
       ]
+    },
+    {
+      "slug": "fusionclaw",
+      "name": "FusionClaw",
+      "one_line": "The open-source, agent-native business OS: CRM, ops, finance and content on one Postgres with 234 MCP tools. Free to self-host; hosted if you would rather not.",
+      "category": "business-os",
+      "status": "live",
+      "owner": "ronin",
+      "price_display": "Free, or $99 / month hosted",
+      "price_note": "MIT self-hosted forever; Hosted tier $99/mo with 14-day trial, instance provisioned within 1 business day",
+      "tiers": [
+        {
+          "name": "Self-hosted",
+          "price": 0,
+          "interval": "forever",
+          "stripe_price_id": null,
+          "delivery": "git clone"
+        },
+        {
+          "name": "Hosted",
+          "price": 99,
+          "interval": "month",
+          "stripe_price_id": "price_1UCmwpEkfFOXPr6DHsgHlLxa",
+          "delivery": "managed instance provisioned within 1 business day (manual)"
+        }
+      ],
+      "checkout_url": "https://buy.stripe.com/bJe00j7Hdcy87wb8h8aAw0c",
+      "demo_url": "https://fusionclaw.app",
+      "docs_url": "https://github.com/Fusion-Data-Company/FusionClaw",
+      "integrations": {
+        "llm": "OpenRouter / any provider key",
+        "agents": "any MCP client (Claude Code, OpenClaw, Cursor)",
+        "db": "Postgres (Neon default)"
+      },
+      "updated_at": "2026-09-06T23:20:00Z"
+    },
+    {
+      "slug": "underwriter-os",
+      "name": "Underwriter OS",
+      "one_line": "A one-paste Claude setup that turns Claude into a research and underwriting teammate for institutional real-estate and multifamily teams.",
+      "category": "research-packs",
+      "status": "live",
+      "owner": "ronin",
+      "price_display": "Free; custom build from $3,500",
+      "price_note": "MIT pack, free to install; Fusion Data Company customizes the plays and connectors to your markets and tools ($1,500 deposit applied to a $3,500 to $15,000 build)",
+      "tiers": [
+        {
+          "name": "Open pack",
+          "price": 0,
+          "interval": "forever",
+          "stripe_price_id": null,
+          "delivery": "one-paste install from GitHub"
+        },
+        {
+          "name": "Configured for your firm",
+          "price": 1500,
+          "interval": "one_time",
+          "stripe_price_id": "price_1UCk0iEkfFOXPr6DndSMY2Do",
+          "delivery": "deposit; kickoff within 1 business day (manual)"
+        }
+      ],
+      "checkout_url": "https://buy.stripe.com/5kQbJ12mT1TuaIn0OGaAw0b",
+      "demo_url": "https://github.com/Fusion-Data-Company/underwriter-os",
+      "docs_url": "https://github.com/Fusion-Data-Company/underwriter-os",
+      "integrations": {
+        "research": "Tavily, Exa, Census, SEC EDGAR, FRED, Google Maps as optional connectors"
+      },
+      "updated_at": "2026-09-06T23:20:00Z"
+    },
+    {
+      "slug": "rentdesk",
+      "name": "RentDesk",
+      "one_line": "Phone-first rent, expense, repair and lease tracker for small landlords, with a voice office manager. One shared access code, no accounts.",
+      "category": "small-business-tools",
+      "status": "live",
+      "owner": "ronin",
+      "price_display": "$19 / month",
+      "price_note": "14-day trial; your own private instance set up within 1 business day",
+      "tiers": [
+        {
+          "name": "Private instance",
+          "price": 19,
+          "interval": "month",
+          "stripe_price_id": "price_1UCnC2EkfFOXPr6Dxzo1rTr0",
+          "delivery": "provisioned within 1 business day (manual)"
+        }
+      ],
+      "checkout_url": "https://buy.stripe.com/5kQaEX9Pl9lW9Ej54WaAw0d",
+      "demo_url": "https://rentdesk-demo.vercel.app/pricing",
+      "docs_url": "https://github.com/Fusion-Data-Company/rentdesk",
+      "integrations": {
+        "voice": "ElevenLabs (optional)",
+        "db": "Postgres (Neon)"
+      },
+      "updated_at": "2026-09-06T23:20:00Z"
     }
   ]
 }
