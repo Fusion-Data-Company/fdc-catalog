@@ -1,7 +1,7 @@
 {
   "$schema": "./catalog.schema.json",
   "generated_by": "ronin-local",
-  "updated_at": "2026-09-06T16:45:00Z",
+  "updated_at": "2026-09-06T17:15:00Z",
   "notes": "Single source of truth for everything Fusion Data Company sells. fusiondataco.com renders from this file. Owner of each entry maintains it; nobody else edits another owner's entry. Prices here are the only published prices.",
   "products": [
     {
@@ -12,16 +12,37 @@
       "status": "live",
       "owner": "ronin",
       "price_display": "From $79",
-      "price_note": "Single Run $79 · Hosted Deep Audit $149 · Pro $499, all one-time",
+      "price_note": "Single Run $79 \u00b7 Hosted Deep Audit $149 \u00b7 Pro $499, all one-time",
       "tiers": [
-        { "name": "Single Run", "price": 79, "interval": "one_time", "stripe_price_id": "price_1UCixUEkfFOXPr6DXQptMjMK", "delivery": "automated instant grade, on screen in seconds" },
-        { "name": "Hosted Deep Audit", "price": 149, "interval": "one_time", "stripe_price_id": "price_1UChuBEkfFOXPr6D3yMNbJeV", "delivery": "instant grade now, evidence report emailed within 2 business days" },
-        { "name": "Hosted Deep Audit — Pro", "price": 499, "interval": "one_time", "stripe_price_id": "price_1UChuCEkfFOXPr6D2ux1VTnU", "delivery": "authenticated checks, fix plan, one re-audit, 30-minute call" }
+        {
+          "name": "Single Run",
+          "price": 79,
+          "interval": "one_time",
+          "stripe_price_id": "price_1UCixUEkfFOXPr6DXQptMjMK",
+          "delivery": "automated instant grade, on screen in seconds"
+        },
+        {
+          "name": "Hosted Deep Audit",
+          "price": 149,
+          "interval": "one_time",
+          "stripe_price_id": "price_1UChuBEkfFOXPr6D3yMNbJeV",
+          "delivery": "instant grade now, evidence report emailed within 2 business days"
+        },
+        {
+          "name": "Hosted Deep Audit \u2014 Pro",
+          "price": 499,
+          "interval": "one_time",
+          "stripe_price_id": "price_1UChuCEkfFOXPr6D2ux1VTnU",
+          "delivery": "authenticated checks, fix plan, one re-audit, 30-minute call"
+        }
       ],
       "checkout_url": "https://80-20.dev/landing#order",
       "demo_url": "https://80-20.dev/landing",
       "docs_url": "https://github.com/Fusion-Data-Company/fusion-launchaudit",
-      "updated_at": "2026-09-06T16:45:00Z"
+      "updated_at": "2026-09-06T16:45:00Z",
+      "integrations": {
+        "runs_in": "your own Claude Code / Cursor / Codex; hosted tiers run on our side"
+      }
     },
     {
       "slug": "rapport",
@@ -33,27 +54,65 @@
       "price_display": "$29 per seat / month",
       "price_note": "14-day free trial, 250 contacts per seat, cancel any time",
       "tiers": [
-        { "name": "Seat", "price": 29, "interval": "month", "stripe_price_id": "price_1UChi6EkfFOXPr6DCFYJUHzR", "delivery": "self-serve seat; connects the rep's own Google Workspace / Microsoft 365 mailbox" }
+        {
+          "name": "Seat",
+          "price": 29,
+          "interval": "month",
+          "stripe_price_id": "price_1UChi6EkfFOXPr6DCFYJUHzR",
+          "delivery": "self-serve seat; connects the rep's own Google Workspace / Microsoft 365 mailbox"
+        }
       ],
       "checkout_url": "https://rapport-pi.vercel.app/sign-up",
       "demo_url": "https://rapport-pi.vercel.app",
       "docs_url": null,
-      "updated_at": "2026-09-06T16:45:00Z"
+      "updated_at": "2026-09-06T16:45:00Z",
+      "integrations": {
+        "mail": "tenant's own mailbox via SMTP (Google Workspace, Microsoft 365, any) \u2014 default; more drivers on request",
+        "llm": "OpenRouter default, bring your own key"
+      }
     },
     {
       "slug": "leadline",
       "name": "LeadLine",
       "one_line": "A voice agent that interviews every inbound human for five minutes and hands you a scored record before anyone on your team picks up the phone.",
       "category": "voice-agents",
-      "status": "soon",
+      "status": "live",
       "owner": "ronin",
       "price_display": "From $149 / month",
-      "price_note": "Tiers pending sourced comps (proposed $149 / $299 / $599 with interview caps and published overage)",
-      "tiers": [],
-      "checkout_url": null,
-      "demo_url": null,
-      "docs_url": null,
-      "updated_at": "2026-09-06T16:45:00Z"
+      "price_note": "Starter $149 (50 interviews) \u00b7 Growth $299 (150) \u00b7 Scale $599 (400, phone number included); 14-day trial; published per-interview overage",
+      "tiers": [
+        {
+          "name": "Starter",
+          "price": 149,
+          "interval": "month",
+          "stripe_price_id": "price_1UCjW6EkfFOXPr6DuIFuc3nA",
+          "delivery": "self-serve subscription; interviewer provisioned from the onboarding brief within 1 business day"
+        },
+        {
+          "name": "Growth",
+          "price": 299,
+          "interval": "month",
+          "stripe_price_id": "price_1UCjW6EkfFOXPr6DZPSvcZHt",
+          "delivery": "same"
+        },
+        {
+          "name": "Scale",
+          "price": 599,
+          "interval": "month",
+          "stripe_price_id": "price_1UCjW7EkfFOXPr6DlBjgbvFE",
+          "delivery": "same, phone number included"
+        }
+      ],
+      "checkout_url": "https://leadline-psi.vercel.app/#pricing",
+      "demo_url": "https://leadline-psi.vercel.app/talk",
+      "docs_url": "https://github.com/Fusion-Data-Company/leadline",
+      "updated_at": "2026-09-06T17:15:00Z",
+      "integrations": {
+        "voice": "ElevenLabs (default)",
+        "crm": "built-in dashboard (default); any CRM as a driver on custom orders",
+        "mail": "SMTP or Google (driver)",
+        "calendar": "built-in callback calendar (default)"
+      }
     },
     {
       "slug": "white-label-platforms",
@@ -68,7 +127,14 @@
       "checkout_url": null,
       "demo_url": null,
       "docs_url": null,
-      "verticals_clean_today": ["mat-ops", "savvy-fsbo", "body-temple", "unique-beauty-pmu", "wicked-gardens", "lead-annex"],
+      "verticals_clean_today": [
+        "mat-ops",
+        "savvy-fsbo",
+        "body-temple",
+        "unique-beauty-pmu",
+        "wicked-gardens",
+        "lead-annex"
+      ],
       "updated_at": "2026-09-06T16:45:00Z"
     }
   ]
