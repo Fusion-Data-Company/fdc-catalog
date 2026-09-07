@@ -1,7 +1,7 @@
 {
   "$schema": "./catalog.schema.json",
   "generated_by": "ronin-local",
-  "updated_at": "2026-09-07T06:20:00Z",
+  "updated_at": "2026-09-07T07:05:00Z",
   "notes": "Single source of truth for everything Fusion Data Company sells. fusiondataco.com renders from this file. Owner of each entry maintains it; nobody else edits another owner's entry. Prices here are the only published prices.",
   "products": [
     {
@@ -135,7 +135,7 @@
       "checkout_url": "https://buy.stripe.com/5kQbJ12mT1TuaIn0OGaAw0b",
       "demo_url": "https://opsdesk-demo-six.vercel.app",
       "docs_url": null,
-      "updated_at": "2026-09-07T06:20:00Z",
+      "updated_at": "2026-09-07T07:05:00Z",
       "demos": [
         {
           "vertical": "Operations tracker for small teams",
@@ -196,9 +196,9 @@
         {
           "vertical": "Home renovation contractor",
           "name": "Cedar and Stone Renovations",
-          "demo_url": null,
+          "demo_url": "https://cedar-stone-demo-one.vercel.app",
           "repo": "all-things-home-reno-WL",
-          "status": "clean, not deployed"
+          "status": "live"
         },
         {
           "vertical": "Wetland mitigation ops",
@@ -224,9 +224,9 @@
         {
           "vertical": "Fence contractor",
           "name": "Ridgeline Fence",
-          "demo_url": null,
+          "demo_url": "https://ridgeline-fence-demo.vercel.app",
           "repo": "cleancutfenceandgate-WL",
-          "status": "clean, not deployed"
+          "status": "live"
         },
         {
           "vertical": "Ecosystem hub / recruiting CRM",
