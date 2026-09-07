@@ -1,7 +1,7 @@
 {
   "$schema": "./catalog.schema.json",
   "generated_by": "ronin-local",
-  "updated_at": "2026-09-08T00:30:00Z",
+  "updated_at": "2026-09-08T00:55:00Z",
   "notes": "Single source of truth for everything Fusion Data Company sells. fusiondataco.com renders from this file. Owner of each entry maintains it; nobody else edits another owner's entry. Prices here are the only published prices; the ClickUp thread is for discussion and handoffs, never a price of record.",
   "products": [
     {
@@ -135,7 +135,7 @@
       "checkout_url": "https://buy.stripe.com/5kQbJ12mT1TuaIn0OGaAw0b",
       "demo_url": "https://opsdesk-demo-six.vercel.app",
       "docs_url": null,
-      "updated_at": "2026-09-07T07:50:00Z",
+      "updated_at": "2026-09-08T00:55:00Z",
       "demos": [
         {
           "vertical": "Operations tracker for small teams",
@@ -244,10 +244,10 @@
         },
         {
           "vertical": "LMS / course platform",
-          "name": "Licensing Academy",
-          "demo_url": null,
+          "name": "Licensing Academy LMS",
+          "demo_url": "https://licensing-academy-demo.vercel.app",
           "repo": "cflis-rebuild-WL",
-          "status": "clean, not deployed"
+          "status": "live"
         }
       ]
     },
