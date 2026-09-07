@@ -1,7 +1,7 @@
 {
   "$schema": "./catalog.schema.json",
   "generated_by": "ronin-local",
-  "updated_at": "2026-09-07T07:05:00Z",
+  "updated_at": "2026-09-07T07:50:00Z",
   "notes": "Single source of truth for everything Fusion Data Company sells. fusiondataco.com renders from this file. Owner of each entry maintains it; nobody else edits another owner's entry. Prices here are the only published prices.",
   "products": [
     {
@@ -36,10 +36,10 @@
           "delivery": "authenticated checks, fix plan, one re-audit, 30-minute call"
         }
       ],
-      "checkout_url": "https://80-20.dev/landing#order",
-      "demo_url": "https://80-20.dev/landing",
+      "checkout_url": "https://80-20.dev/#order",
+      "demo_url": "https://80-20.dev",
       "docs_url": "https://github.com/Fusion-Data-Company/fusion-launchaudit",
-      "updated_at": "2026-09-06T16:45:00Z",
+      "updated_at": "2026-09-07T07:50:00Z",
       "integrations": {
         "runs_in": "your own Claude Code / Cursor / Codex; hosted tiers run on our side"
       }
@@ -62,10 +62,10 @@
           "delivery": "self-serve seat; connects the rep's own Google Workspace / Microsoft 365 mailbox"
         }
       ],
-      "checkout_url": "https://rapport-pi.vercel.app/sign-up",
-      "demo_url": "https://rapport-pi.vercel.app",
-      "docs_url": null,
-      "updated_at": "2026-09-06T16:45:00Z",
+      "checkout_url": "https://rapport.fusiondataco.com/sign-up",
+      "demo_url": "https://rapport.fusiondataco.com",
+      "docs_url": "https://github.com/Fusion-Data-Company/rapport",
+      "updated_at": "2026-09-07T07:50:00Z",
       "integrations": {
         "mail": "tenant's own mailbox via SMTP (Google Workspace, Microsoft 365, any) \u2014 default; more drivers on request",
         "llm": "OpenRouter default, bring your own key"
@@ -135,7 +135,7 @@
       "checkout_url": "https://buy.stripe.com/5kQbJ12mT1TuaIn0OGaAw0b",
       "demo_url": "https://opsdesk-demo-six.vercel.app",
       "docs_url": null,
-      "updated_at": "2026-09-07T07:05:00Z",
+      "updated_at": "2026-09-07T07:50:00Z",
       "demos": [
         {
           "vertical": "Operations tracker for small teams",
@@ -189,9 +189,9 @@
         {
           "vertical": "Garage door / home services",
           "name": "Summit Door Co",
-          "demo_url": null,
+          "demo_url": "https://summit-door-demo.vercel.app",
           "repo": "garage-guys-WL",
-          "status": "clean, not deployed"
+          "status": "live"
         },
         {
           "vertical": "Home renovation contractor",
