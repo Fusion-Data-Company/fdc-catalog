@@ -1,7 +1,7 @@
 {
   "$schema": "./catalog.schema.json",
   "generated_by": "ronin-local",
-  "updated_at": "2026-09-08T00:00:00Z",
+  "updated_at": "2026-09-08T00:10:00Z",
   "notes": "Single source of truth for everything Fusion Data Company sells. fusiondataco.com renders from this file. Owner of each entry maintains it; nobody else edits another owner's entry. Prices here are the only published prices; the ClickUp thread is for discussion and handoffs, never a price of record.",
   "products": [
     {
@@ -334,7 +334,7 @@
           "price": 19,
           "interval": "month",
           "stripe_price_id": "price_1UCnC2EkfFOXPr6Dxzo1rTr0",
-          "delivery": "provisioned within 1 business day (manual)"
+          "delivery": "your own instance + access code emailed within 1 business day (runbook: docs/PROVISION.md)"
         }
       ],
       "checkout_url": "https://buy.stripe.com/5kQaEX9Pl9lW9Ej54WaAw0d",
@@ -344,7 +344,7 @@
         "voice": "ElevenLabs (optional)",
         "db": "Postgres (Neon)"
       },
-      "updated_at": "2026-09-06T23:20:00Z"
+      "updated_at": "2026-09-08T00:10:00Z"
     },
     {
       "slug": "parcel-data",
