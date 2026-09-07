@@ -1,8 +1,8 @@
 {
   "$schema": "./catalog.schema.json",
   "generated_by": "ronin-local",
-  "updated_at": "2026-09-07T07:50:00Z",
-  "notes": "Single source of truth for everything Fusion Data Company sells. fusiondataco.com renders from this file. Owner of each entry maintains it; nobody else edits another owner's entry. Prices here are the only published prices.",
+  "updated_at": "2026-09-07T22:45:00Z",
+  "notes": "Single source of truth for everything Fusion Data Company sells. fusiondataco.com renders from this file. Owner of each entry maintains it; nobody else edits another owner's entry. Prices here are the only published prices; the ClickUp thread is for discussion and handoffs, never a price of record.",
   "products": [
     {
       "slug": "launch-audit",
@@ -345,6 +345,81 @@
         "db": "Postgres (Neon)"
       },
       "updated_at": "2026-09-06T23:20:00Z"
+    },
+    {
+      "slug": "parcel-data",
+      "name": "County-Direct Parcel Data",
+      "one_line": "Owner name, mailing address and property address for a whole county, pulled straight from the county, cheaper than the county charges for it.",
+      "category": "data",
+      "status": "live",
+      "owner": "primary",
+      "price_display": "From $199 per county",
+      "price_note": "County file $199 \u00b7 Absentee-owner segment $699 \u00b7 Monthly refresh $99. Statewide files temporarily unlisted pending per-state coverage verification.",
+      "tiers": [
+        {
+          "name": "County file",
+          "price": 199,
+          "interval": "one_time",
+          "stripe_price_id": "price_1UCPYFEkfFOXPr6DTZyVcvWB",
+          "delivery": "CSV emailed automatically within the hour of payment"
+        },
+        {
+          "name": "Absentee-owner segment",
+          "price": 699,
+          "interval": "one_time",
+          "stripe_price_id": "TBD-repricing",
+          "delivery": "CSV emailed automatically; out-of-state and mailing-address-mismatch cut only"
+        },
+        {
+          "name": "Monthly refresh",
+          "price": 99,
+          "interval": "month",
+          "stripe_price_id": "TBD-repricing",
+          "delivery": "same county, re-harvested and re-sent monthly"
+        }
+      ],
+      "checkout_url": "https://fdc-parcel-data.vercel.app",
+      "demo_url": "https://fdc-parcel-data.vercel.app",
+      "docs_url": "https://github.com/Fusion-Data-Company/fdc-parcel-store",
+      "updated_at": "2026-09-06T17:05:00Z"
+    },
+    {
+      "slug": "quarry",
+      "name": "Quarry",
+      "one_line": "Parcel intelligence that does not stop at the owner's name: tap any property and get the person you can actually call.",
+      "category": "data",
+      "status": "soon",
+      "owner": "primary",
+      "price_display": "Pricing in progress",
+      "price_note": "No self-serve checkout yet. Do not publish a seat price until the corpus count reconciliation lands.",
+      "tiers": [],
+      "checkout_url": null,
+      "demo_url": "https://quarry.fusiondataco.com",
+      "docs_url": null,
+      "updated_at": "2026-09-06T17:05:00Z"
+    },
+    {
+      "slug": "fusion-trace",
+      "name": "Fusion Trace",
+      "one_line": "Skip tracing with a confidence number that was measured against known answers instead of asserted in a marketing headline.",
+      "category": "data",
+      "status": "soon",
+      "owner": "primary",
+      "price_display": "$0.15 per hit",
+      "price_note": "Per HIT, misses free. Not live: no API keys, no checkout yet. Do not link a buy button.",
+      "tiers": [
+        {
+          "name": "Per hit",
+          "price": 0.15,
+          "interval": "usage",
+          "stripe_price_id": null,
+          "delivery": "API; charged only when contact data is returned"
+        }
+      ],
+      "checkout_url": null,
+      "demo_url": "https://fusion-trace.vercel.app",
+      "docs_url": null,
+      "updated_at": "2026-09-06T17:05:00Z"
     }
   ]
 }
