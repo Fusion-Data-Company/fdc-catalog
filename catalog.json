@@ -1,7 +1,7 @@
 {
   "$schema": "./catalog.schema.json",
   "generated_by": "ronin-local",
-  "updated_at": "2026-09-08T00:10:00Z",
+  "updated_at": "2026-09-08T00:30:00Z",
   "notes": "Single source of truth for everything Fusion Data Company sells. fusiondataco.com renders from this file. Owner of each entry maintains it; nobody else edits another owner's entry. Prices here are the only published prices; the ClickUp thread is for discussion and handoffs, never a price of record.",
   "products": [
     {
@@ -103,10 +103,10 @@
           "delivery": "same, phone number included"
         }
       ],
-      "checkout_url": "https://leadline-psi.vercel.app/#pricing",
-      "demo_url": "https://leadline-psi.vercel.app/talk",
+      "checkout_url": "https://leadline.fusiondataco.com/#pricing",
+      "demo_url": "https://leadline.fusiondataco.com/talk",
       "docs_url": "https://github.com/Fusion-Data-Company/leadline",
-      "updated_at": "2026-09-06T17:15:00Z",
+      "updated_at": "2026-09-08T00:30:00Z",
       "integrations": {
         "voice": "ElevenLabs (default)",
         "crm": "built-in dashboard (default); any CRM as a driver on custom orders",
