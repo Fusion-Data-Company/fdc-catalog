@@ -1,7 +1,7 @@
 {
   "$schema": "./catalog.schema.json",
   "generated_by": "ronin-local",
-  "updated_at": "2026-09-08T00:55:00Z",
+  "updated_at": "2026-09-08T01:40:00Z",
   "notes": "Single source of truth for everything Fusion Data Company sells. fusiondataco.com renders from this file. Owner of each entry maintains it; nobody else edits another owner's entry. Prices here are the only published prices; the ClickUp thread is for discussion and handoffs, never a price of record.",
   "products": [
     {
@@ -273,18 +273,18 @@
           "price": 99,
           "interval": "month",
           "stripe_price_id": "price_1UCmwpEkfFOXPr6DHsgHlLxa",
-          "delivery": "managed instance provisioned within 1 business day (manual)"
+          "delivery": "own instance + owner password + MCP key emailed within 1 business day (runbook: docs/HOSTED-PROVISION.md)"
         }
       ],
       "checkout_url": "https://buy.stripe.com/bJe00j7Hdcy87wb8h8aAw0c",
-      "demo_url": "https://fusionclaw.app",
+      "demo_url": "https://fusionclaw-demo.vercel.app/dashboard",
       "docs_url": "https://github.com/Fusion-Data-Company/FusionClaw",
       "integrations": {
         "llm": "OpenRouter / any provider key",
         "agents": "any MCP client (Claude Code, OpenClaw, Cursor)",
         "db": "Postgres (Neon default)"
       },
-      "updated_at": "2026-09-06T23:20:00Z"
+      "updated_at": "2026-09-08T01:40:00Z"
     },
     {
       "slug": "underwriter-os",
