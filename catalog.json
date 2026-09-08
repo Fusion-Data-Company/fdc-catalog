@@ -1,7 +1,7 @@
 {
   "$schema": "./catalog.schema.json",
   "generated_by": "ronin-local",
-  "updated_at": "2026-09-08T02:35:00Z",
+  "updated_at": "2026-09-08T02:55:00Z",
   "notes": "Single source of truth for everything Fusion Data Company sells. fusiondataco.com renders from this file. Owner of each entry maintains it; nobody else edits another owner's entry. Prices here are the only published prices; the ClickUp thread is for discussion and handoffs, never a price of record.",
   "products": [
     {
@@ -241,15 +241,53 @@
           "demo_url": "https://fdc-supply-white-label.vercel.app/store",
           "repo": "stain-and-seal-supply-WL",
           "status": "live (no in-app CTA yet)"
-        },
+        }
+      ]
+    },
+    {
+      "slug": "course-platform",
+      "name": "Course Platform",
+      "one_line": "Sell a course, collect the money, run the training. Lessons, quizzes, certificates, student tracking and Stripe checkout, under your school's or company's name.",
+      "category": "done-for-you",
+      "status": "live",
+      "owner": "ronin",
+      "price_display": "$3,500 to $15,000 + hosting",
+      "price_note": "$1,500 deposit at checkout (applied to the project); two starting templates, pick either; hosting and care $250 to $500 / month; your payment processor, mailer and tools wired in on order",
+      "tiers": [
         {
-          "vertical": "LMS / course platform",
-          "name": "Licensing Academy LMS",
+          "name": "Build deposit",
+          "price": 1500,
+          "interval": "one_time",
+          "stripe_price_id": "price_1UCk0iEkfFOXPr6DndSMY2Do",
+          "delivery": "kickoff within 1 business day; clone template, brand it, load your course content, wire your tools, deploy, handover"
+        }
+      ],
+      "checkout_url": "https://buy.stripe.com/5kQbJ12mT1TuaIn0OGaAw0b",
+      "demo_url": "https://licensing-academy-demo.vercel.app",
+      "docs_url": "https://github.com/Fusion-Data-Company/cflis-rebuild-WL",
+      "templates": [
+        {
+          "name": "Licensing Academy",
+          "fit": "Licensing, compliance and certification schools: catalog of paid courses, live classes, exam prep, certificates",
           "demo_url": "https://licensing-academy-demo.vercel.app",
           "repo": "cflis-rebuild-WL",
           "status": "live"
+        },
+        {
+          "name": "University",
+          "fit": "Membership-style training academy for a company, franchise or recruiting network: gated lessons, cohorts, admin panel",
+          "demo_url": null,
+          "repo": null,
+          "status": "soon"
         }
-      ]
+      ],
+      "integrations": {
+        "payments": "Stripe",
+        "auth": "Clerk (swappable)",
+        "db": "Postgres (Neon)",
+        "email": "any SMTP / your provider"
+      },
+      "updated_at": "2026-09-08T02:55:00Z"
     },
     {
       "slug": "fusionclaw",
