@@ -1,7 +1,7 @@
 {
   "$schema": "./catalog.schema.json",
   "generated_by": "ronin-local",
-  "updated_at": "2026-09-08T02:55:00Z",
+  "updated_at": "2026-09-08T03:30:00Z",
   "notes": "Single source of truth for everything Fusion Data Company sells. fusiondataco.com renders from this file. Owner of each entry maintains it; nobody else edits another owner's entry. Prices here are the only published prices; the ClickUp thread is for discussion and handoffs, never a price of record.",
   "products": [
     {
@@ -135,7 +135,7 @@
       "checkout_url": "https://buy.stripe.com/5kQbJ12mT1TuaIn0OGaAw0b",
       "demo_url": "https://opsdesk-demo-six.vercel.app",
       "docs_url": null,
-      "updated_at": "2026-09-08T02:35:00Z",
+      "updated_at": "2026-09-08T03:30:00Z",
       "demos": [
         {
           "vertical": "Operations tracker for small teams",
@@ -230,7 +230,7 @@
         },
         {
           "vertical": "Ecosystem hub / recruiting CRM",
-          "name": "Licensing Academy Overwatch",
+          "name": "Northstar Agency Hub",
           "demo_url": null,
           "repo": "Overwatch-WL",
           "status": "clean, not deployed"
