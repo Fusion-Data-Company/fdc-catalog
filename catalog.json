@@ -1,7 +1,7 @@
 {
   "$schema": "./catalog.schema.json",
   "generated_by": "ronin-local",
-  "updated_at": "2026-09-08T01:40:00Z",
+  "updated_at": "2026-09-08T02:35:00Z",
   "notes": "Single source of truth for everything Fusion Data Company sells. fusiondataco.com renders from this file. Owner of each entry maintains it; nobody else edits another owner's entry. Prices here are the only published prices; the ClickUp thread is for discussion and handoffs, never a price of record.",
   "products": [
     {
@@ -135,7 +135,7 @@
       "checkout_url": "https://buy.stripe.com/5kQbJ12mT1TuaIn0OGaAw0b",
       "demo_url": "https://opsdesk-demo-six.vercel.app",
       "docs_url": null,
-      "updated_at": "2026-09-08T00:55:00Z",
+      "updated_at": "2026-09-08T02:35:00Z",
       "demos": [
         {
           "vertical": "Operations tracker for small teams",
@@ -167,17 +167,17 @@
         },
         {
           "vertical": "Beauty studio",
-          "name": null,
-          "demo_url": null,
+          "name": "Acme Beauty",
+          "demo_url": "https://acme-beauty-demo.vercel.app",
           "repo": "unique-beauty-pmu-WL",
-          "status": "clean, not deployed"
+          "status": "live"
         },
         {
           "vertical": "Cultivation ops",
-          "name": null,
-          "demo_url": null,
+          "name": "Acme Grow",
+          "demo_url": "https://acme-grow-demo.vercel.app",
           "repo": "wicked-gardens-WL",
-          "status": "clean, not deployed"
+          "status": "live"
         },
         {
           "vertical": "Lead generation",
@@ -217,9 +217,9 @@
         {
           "vertical": "Auto service + booking",
           "name": "Quick Lane Auto Care",
-          "demo_url": null,
+          "demo_url": "https://quick-lane-auto-demo.vercel.app",
           "repo": "drive-city-connect-WL",
-          "status": "clean, not deployed"
+          "status": "live"
         },
         {
           "vertical": "Fence contractor",
